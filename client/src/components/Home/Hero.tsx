@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import HeroImage from "../../assets/hero.png";
 import SButton from "../SButton";
 
