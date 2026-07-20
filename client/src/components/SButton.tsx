@@ -9,7 +9,7 @@ const SButton = ({ link, value }: SButtonProp) => {
   return (
     <Link
       to={link}
-      className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition"
+      className="bg-green-600 text-white font-bold px-4 py-2 rounded-lg hover:bg-green-700 transition shadow-xl/20"
     >
       {value}
     </Link>

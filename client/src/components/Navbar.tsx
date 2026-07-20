@@ -56,13 +56,6 @@ export default function Navbar() {
             >
               Login
             </Link>
-
-            <Link
-              to="/products"
-              className="bg-green-600 hover:bg-green-700 text-white px-5 py-2.5 rounded-lg font-medium transition"
-            >
-              Order Now
-            </Link>
           </div>
 
           <button className="md:hidden" onClick={toogleNabar}>
@@ -90,14 +83,6 @@ export default function Navbar() {
 
             <Link to="/login" onClick={toogleNabar}>
               Login
-            </Link>
-
-            <Link
-              to="/products"
-              onClick={toogleNabar}
-              className="bg-green-600 text-white text-center py-3 rounded-lg"
-            >
-              Order Now
             </Link>
           </div>
         )}
