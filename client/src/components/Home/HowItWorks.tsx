@@ -2,12 +2,15 @@ import { BiSolidFoodMenu } from "react-icons/bi";
 import HowStaticCard from "../HowStaticCard";
 import { PiCookingPotFill } from "react-icons/pi";
 import { MdDeliveryDining } from "react-icons/md";
-import { FaBowlFood } from "react-icons/fa6";
-import HeroImage from "../../assets/hero.png";
+import { FaBowlFood, FaPeopleGroup } from "react-icons/fa6";
+import JagrutiImage from "../../assets/jagruti.png";
+import { ImHappy2 } from "react-icons/im";
+import { GiThreeLeaves } from "react-icons/gi";
+import { FaCalendarAlt } from "react-icons/fa";
 
 export default function HowItWorks() {
   return (
-    <section className="w-full bg-[#fdf5ee] py-15">
+    <section className="w-full bg-[#fdf5ee] py-15 inset-shadow-sm inset-shadow-gray-500">
       <div className="max-w-7xl mx-auto px-5">
         <h2 className="text-lg font-medium text-green-700">🌿How its work</h2>
         <div className="mt-5 flex flex-wrap gap-5">
@@ -33,43 +36,47 @@ export default function HowItWorks() {
           />
         </div>
       </div>
-      <div className="max-w-7xl mx-auto border-2 flex flex-wrap bg-green-900 rounded-lg mt-5">
-        <div className="w-full flex p-5 flex-wrap gap-5 text-white justify-evenly text-center">
-          <div className="w-full lg:w-1/5 border text-white rounded-2xl overflow-hidden">
-            <img src={HeroImage} alt="Dal" />
-            <div className="bg-white text-green-900 p-2 flex flex-col items-center justify-center gap-2">
-              <h3 className="text-3xl font-bold">30+</h3>
-              <p>Daily Tiffins</p>
-            </div>
+      <div className="max-w-7xl mx-auto border-2 bg-green-900 rounded-lg mt-5 flex flex-wrap p-5 gap-5 text-white justify-evenly text-center">
+        <div className="w-full lg:w-1/5 border text-white rounded-xl overflow-hidden flex items-center justify-evenly">
+          <FaPeopleGroup className="p-5 w-20 h-20" />
+          <div className="text-white p-2 flex flex-col items-center justify-center gap-2">
+            <h3 className="text-3xl font-bold">30+</h3>
+            <p>Daily Tiffins</p>
           </div>
-          <div className="w-full lg:w-1/5 border text-white rounded-xl overflow-hidden">
-            <img src={HeroImage} alt="Dal" />
-            <div className="bg-white text-green-900 p-2 flex flex-col items-center justify-center gap-2">
-              <h3 className="text-3xl font-bold">50+</h3>
-              <p>Daily Tiffins</p>
-            </div>
+        </div>
+        <div className="w-full lg:w-1/5 border text-white rounded-xl overflow-hidden flex items-center justify-evenly">
+          <ImHappy2 className="p-5 w-20 h-20" />
+          <div className="text-white p-2 flex flex-col items-center justify-center gap-2">
+            <h3 className="text-3xl font-bold">50+</h3>
+            <p>Daily Tiffins</p>
           </div>
-          <div className="w-full lg:w-1/5 border text-white rounded-2xl overflow-hidden">
-            <img src={HeroImage} alt="Dal" />
-            <div className="bg-white text-green-900 p-2 flex flex-col items-center justify-center gap-2">
-              <h3 className="text-3xl font-bold">100+</h3>
-              <p>Daily Tiffins</p>
-            </div>
+        </div>
+        <div className="w-full lg:w-1/5 border text-white rounded-xl overflow-hidden flex items-center justify-evenly">
+          <GiThreeLeaves className="p-5 w-20 h-20" />
+          <div className="text-white p-2 flex flex-col items-center justify-center gap-2">
+            <h3 className="text-3xl font-bold">100+</h3>
+            <p>Daily Tiffins</p>
           </div>
-          <div className="w-full lg:w-1/5 border text-white rounded-2xl overflow-hidden">
-            <img src={HeroImage} alt="Dal" />
-            <div className="bg-white text-green-900 p-2 flex flex-col items-center justify-center gap-2">
-              <h3 className="text-3xl font-bold">100+</h3>
-              <p>Daily Tiffins</p>
-            </div>
+        </div>
+        <div className="w-full lg:w-1/5 border text-white rounded-xl overflow-hidden flex items-center justify-evenly">
+          <FaCalendarAlt className="p-5 w-20 h-20" />
+          <div className="text-white p-2 flex flex-col items-center justify-center gap-2">
+            <h3 className="text-3xl font-bold">100+</h3>
+            <p>Daily Tiffins</p>
           </div>
         </div>
       </div>
       <div className="max-w-7xl mx-auto border-2 flex flex-wrap rounded-lg mt-5 p-5 bg-white">
-        <div className="w-full lg:w-1/4">Photo</div>
-        <div className="w-full lg:w-3/4">
+        <div className="w-full lg:w-1/4">
+          <img
+            src={JagrutiImage}
+            alt="Jagruti Kanaiya Panchal"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="w-full lg:w-3/4 flex flex-col gap-4 p-5 justify-center items-center">
           <h4 className="text-lg font-medium text-green-700">🌿How its work</h4>
-          <h2>
+          <h2 className="text-3xl font-bold text-green-900">
             <span>Mrs. Jagruti Kanaiya Panchal</span>
           </h2>
           <p>

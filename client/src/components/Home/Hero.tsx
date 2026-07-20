@@ -16,7 +16,7 @@ export default function Hero() {
                 🌿 100% Pure Vegetarian
               </h2>
             </div>
-            <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold leading-tight text-green-700 mb-6">
+            <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold leading-tight text-green-700 mb-6 text-shadow-lg/20">
               <span className="text-black">Homemade Gujarati Meals</span>
               <br />
               Cooked with Love,

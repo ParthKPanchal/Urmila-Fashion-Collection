@@ -1,14 +1,17 @@
 import { BiSolidFoodMenu } from "react-icons/bi";
-import HeroImage from "../../assets/hero.png";
+import Dal from "../../assets/Dal.png";
+import Rice from "../../assets/Rice.png";
+import Roti from "../../assets/Roti.png";
+import Sabji from "../../assets/Sabji.png";
 import StaticCard from "../StaticCard";
 // import SButton from "../SButton";
-import { FaRupeeSign, FaStar } from "react-icons/fa";
+import { FaRupeeSign } from "react-icons/fa";
 import { PiCookingPotFill } from "react-icons/pi";
 import { MdDeliveryDining } from "react-icons/md";
 
 export default function WhyChooseUs() {
   return (
-    <section className="w-full bg-white py-15 ">
+    <section className="w-full bg-white py-15 inset-shadow-sm inset-shadow-gray-500">
       <div className="max-w-7xl mx-auto px-5">
         <h2 className="text-lg font-medium text-green-700">🌿Why Choose Us</h2>
         <div className="mt-5 flex flex-wrap gap-5">
@@ -35,27 +38,27 @@ export default function WhyChooseUs() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto border-2 flex flex-wrap bg-[#fdf5ee] rounded-lg mt-5 px-5 shadow-xl/30">
+      <div className="max-w-7xl mx-auto border-2 flex flex-wrap bg-[#fdf5ee] rounded-lg mt-5 shadow-xl/30">
         <div className="w-full lg:w-1/4 bg-green-900 text-white p-5 flex flex-col items-center justify-center gap-2">
-          <h5>Today's special</h5>
+          <h3 className="text-2xl font-bold">Today's special</h3>
           <p>Simple. Balanced. Homemade.</p>
         </div>
         <div className="w-full lg:w-3/4 flex p-5 flex-wrap gap-5 justify-evenly">
-          <div className="flex flex-col items-center border rounded bg-white shadow-xl/20">
-            <img src={HeroImage} width="200em" alt="Dal" />
-            <p>Dal</p>
+          <div className="flex flex-col items-center">
+            <img src={Dal} width="200em" alt="Dal" className="p-5" />
+            <p className="text-lg font-medium text-green-700">Dal</p>
           </div>
-          <div className="flex flex-col items-center border rounded bg-white shadow-xl/20">
-            <img src={HeroImage} width="200em" alt="Dal" />
-            <p>Rice</p>
+          <div className="flex flex-col items-center">
+            <img src={Rice} width="200em" alt="Rice" className="p-5" />
+            <p className="text-lg font-medium text-green-700">Rice</p>
           </div>
-          <div className="flex flex-col items-center border rounded bg-white shadow-xl/20">
-            <img src={HeroImage} width="200em" alt="Dal" />
-            <p>Sabji</p>
+          <div className="flex flex-col items-center">
+            <img src={Sabji} width="200em" alt="Sabji" className="p-5" />
+            <p className="text-lg font-medium text-green-700">Sabji</p>
           </div>
-          <div className="flex flex-col items-center border rounded bg-white shadow-xl/20">
-            <img src={HeroImage} width="200em" alt="Dal" />
-            <p>Roti</p>
+          <div className="flex flex-col items-center">
+            <img src={Roti} width="200em" alt="Roti" className="p-5" />
+            <p className="text-lg font-medium text-green-700">Roti</p>
           </div>
         </div>
       </div>

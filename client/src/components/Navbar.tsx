@@ -10,7 +10,7 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-md shadow-md">
+    <nav className="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-2xl shadow-xl/30">
       <div className="max-w-7xl mx-auto px-6 py-2 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="text-3xl font-bold text-green-700">
