@@ -10,10 +10,13 @@ import { FaCalendarAlt } from "react-icons/fa";
 
 export default function HowItWorks() {
   return (
-    <section className="w-full bg-[#fdf5ee] py-15 inset-shadow-sm inset-shadow-gray-500">
-      <div className="max-w-7xl mx-auto px-5">
+    <section
+      className="w-full px-5 bg-[#fdf5ee] py-15 inset-shadow-sm inset-shadow-gray-500"
+      id="how-its-works"
+    >
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-lg font-medium text-green-700">🌿How its work</h2>
-        <div className="mt-5 flex flex-wrap gap-5">
+        <div className="mt-5 flex flex-wrap justify-between gap-5">
           <HowStaticCard
             icon={<BiSolidFoodMenu />}
             title="Choose Your Plan"
@@ -36,7 +39,7 @@ export default function HowItWorks() {
           />
         </div>
       </div>
-      <div className="max-w-7xl mx-auto border-2 bg-green-900 rounded-lg mt-5 flex flex-wrap p-5 gap-5 text-white justify-evenly text-center">
+      <div className="max-w-7xl px-5 mx-auto border-2 bg-green-900 rounded-lg my-12 flex flex-wrap p-5 gap-5 text-white justify-evenly text-center">
         <div className="w-full lg:w-1/5 border text-white rounded-xl overflow-hidden flex items-center justify-evenly">
           <FaPeopleGroup className="p-5 w-20 h-20" />
           <div className="text-white p-2 flex flex-col items-center justify-center gap-2">

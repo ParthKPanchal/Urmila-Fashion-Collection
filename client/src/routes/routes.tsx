@@ -7,9 +7,9 @@ import Register from "../pages/Register";
 import Product from "../pages/Product";
 import AdminProduct from "../pages/adminproduct";
 import AdminLayout from "../layout/AdminLayout";
-import AboutUs from "../pages/AboutUs";
 import Contact from "../pages/ContactUs";
 import AdminDashboard from "../pages/AdminDashboard";
+import ProductDetail from "../pages/ProductDetail";
 
 function Router() {
   return useRoutes([
@@ -20,7 +20,7 @@ function Router() {
       children: [
         { path: "/", element: <Home /> },
         { path: "/products", element: <Product /> },
-        { path: "/about", element: <AboutUs /> },
+        { path: "/products/:id", element: <ProductDetail /> },
         { path: "/contact", element: <Contact /> },
       ],
     },

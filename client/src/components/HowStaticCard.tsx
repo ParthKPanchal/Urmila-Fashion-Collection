@@ -7,7 +7,7 @@ type HowCardProp = {
 };
 const HowStaticCard = ({ icon, title, description }: HowCardProp) => {
   return (
-    <div className="rounded-xl border border-black p-6 shadow-xl/20 hover:shadow-xl/30 transition duration-300 bg-[#fdf5ee] w-2xs text-center">
+    <div className="rounded-xl border border-black p-6 shadow-xl/20 hover:shadow-xl/30 transition duration-300 bg-white w-2xs text-center">
       <div className="text-4xl text-green-600 flex items-center justify-center p-5 rounded-full bg-green-100 w-20 h-20 mx-auto">
         {icon}
       </div>

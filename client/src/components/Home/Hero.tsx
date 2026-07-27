@@ -5,10 +5,10 @@ import { FaStar } from "react-icons/fa";
 export default function Hero() {
   return (
     <section
-      className="w-full bg-cover bg-center bg-no-repeat py-15"
+      className="w-full bg-cover bg-center bg-no-repeat py-15 px-5"
       style={{ backgroundImage: `url(${HeroImage})` }}
     >
-      <div className="max-w-7xl mx-auto px-5">
+      <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-1/2">
             <div className="inline-block rounded-full bg-green-100 px-5 py-2 mb-6">

@@ -11,10 +11,13 @@ import { MdDeliveryDining } from "react-icons/md";
 
 export default function WhyChooseUs() {
   return (
-    <section className="w-full bg-white py-15 inset-shadow-sm inset-shadow-gray-500">
-      <div className="max-w-7xl mx-auto px-5">
+    <section
+      className="w-full bg-white py-15 px-5 inset-shadow-sm inset-shadow-gray-500"
+      id="why-chosose-us"
+    >
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-lg font-medium text-green-700">🌿Why Choose Us</h2>
-        <div className="mt-5 flex flex-wrap gap-5">
+        <div className="mt-5 flex flex-wrap justify-between gap-5">
           <StaticCard
             icon={<BiSolidFoodMenu />}
             title="Made with love"
@@ -38,7 +41,7 @@ export default function WhyChooseUs() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto border-2 flex flex-wrap bg-[#fdf5ee] rounded-lg mt-5 shadow-xl/30">
+      <div className="max-w-7xl mx-auto border-2 flex flex-wrap bg-[#fdf5ee] rounded-lg mt-12 shadow-xl/30">
         <div className="w-full lg:w-1/4 bg-green-900 text-white p-5 flex flex-col items-center justify-center gap-2">
           <h3 className="text-2xl font-bold">Today's special</h3>
           <p>Simple. Balanced. Homemade.</p>
